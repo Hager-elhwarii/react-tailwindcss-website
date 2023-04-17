@@ -1,3 +1,4 @@
+import { useState } from "react";
 import DoYouLike from "./DoYouLike";
 import Footer from "./Footer";
 import ImagesSection from "./ImagesSection";
@@ -5,12 +6,29 @@ import RightArrow from "./RightArrow";
 import WhatWeCharge from "./WhatWeCharge";
 import WhatWeDo from "./WhatWeDo";
 import WhatWeDont from "./WhatWeDont";
+import { useEffect } from "react";
 
 export default function Home() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
+  function handleScroll() {
+    if (window.pageYOffset > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  }
   return (
     <>
       <div
-        className="navbar text-white shadow-lg fixed top-0 w-full z-50 bg-black transition-all duration-300 "
+        className={`fixed top-0 w-full navbar text-white shadow-lg  z-50 bg-black  transition-all duration-300 ${
+          scrolled ? "py-4" : "py-8"
+        }`}
       >
         <div className="navbar-start md:ml-32">
           <svg
@@ -80,7 +98,7 @@ export default function Home() {
       <WhatWeDont />
       <DoYouLike />
       <WhatWeCharge />
-      <Footer/>
+      <Footer />
     </>
   );
 }
