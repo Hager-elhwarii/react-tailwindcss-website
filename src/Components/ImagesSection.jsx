@@ -2,7 +2,7 @@ export default function ImagesSection() {
   return (
     <>
   
-      <div className="w-full container flex flex-wrap mx-auto gap-5 my-32 min-[1280px]:max-[1535px]:justify-center justify-evenly z-50 relative ">
+      <div className="w-full container flex flex-wrap mx-auto gap-5 my-32 min-[1280px]:max-[1535px]:justify-center justify-evenly z-50 relative px-12 md:px-0">
         <div >
           <img
             className="md:h-[480px] w-full md:w-[700px] rounded-3xl"
