@@ -1,16 +1,15 @@
 export default function ImagesSection() {
   return (
     <>
-  
-      <div className="w-full container flex flex-wrap mx-auto gap-5 my-32 min-[1280px]:max-[1535px]:justify-center justify-evenly z-50 relative px-12 md:px-0">
-        <div >
+      <div className="w-full container flex flex-wrap mx-auto gap-5 my-32 min-[1280px]:max-[1535px]:justify-center justify-evenly z-40 relative px-12 md:px-0">
+        <div>
           <img
             className="md:h-[480px] w-full md:w-[700px] rounded-3xl"
             src="https://themewagon.github.io/klar/img/webp/abstract18.webp"
             alt=""
           />
         </div>
-        <div >
+        <div>
           <img
             className="md:h-[400px] w-full md:w-[300px] rounded-3xl md:translate-x-1 translate-y-10"
             src="https://themewagon.github.io/klar/img/webp/abstract6.webp"
@@ -25,7 +24,6 @@ export default function ImagesSection() {
           />
         </div>
       </div>
-    
     </>
   );
 }

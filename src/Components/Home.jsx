@@ -1,4 +1,5 @@
 import DoYouLike from "./DoYouLike";
+import Footer from "./Footer";
 import ImagesSection from "./ImagesSection";
 import RightArrow from "./RightArrow";
 import WhatWeCharge from "./WhatWeCharge";
@@ -8,20 +9,21 @@ import WhatWeDont from "./WhatWeDont";
 export default function Home() {
   return (
     <>
-      <div className="navbar text-white  py-8 ">
-        {/* <div className="navbar text-white b-b-2 border-b-2 border-gray-300 py-8"> */}
+      <div
+        className="navbar text-white shadow-lg fixed top-0 w-full z-50 bg-black transition-all duration-300 "
+      >
         <div className="navbar-start md:ml-32">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="w-6 h-6 -mb-1 mr-2"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
             />
           </svg>
@@ -49,8 +51,8 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="container w-full md:w-[700px] text-center mx-auto flex flex-col translate-y-20 gap-3 mb-60 ">
-        <p className="text-xl md:text-3xl text-gray-400 capitalize font-thin">
+      <div className="container w-full md:w-[700px] text-center mx-auto flex flex-col translate-y-44 gap-3 mb-72 ">
+        <p className="text-xl md:text-2xl text-gray-400 capitalize font-thin">
           our mission
         </p>
         <p className="font-bold text-3xl md:text-6xl text-white">
@@ -78,6 +80,7 @@ export default function Home() {
       <WhatWeDont />
       <DoYouLike />
       <WhatWeCharge />
+      <Footer/>
     </>
   );
 }
