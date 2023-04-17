@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 import DoYouLike from "./DoYouLike";
 import Footer from "./Footer";
 import ImagesSection from "./ImagesSection";
@@ -6,7 +7,6 @@ import RightArrow from "./RightArrow";
 import WhatWeCharge from "./WhatWeCharge";
 import WhatWeDo from "./WhatWeDo";
 import WhatWeDont from "./WhatWeDont";
-import { useEffect } from "react";
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
