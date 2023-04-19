@@ -14,7 +14,9 @@
     "@rollup/plugin-inject": "^5.0.3",
     "daisyui": "^2.51.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-scroll-trigger": "^0.6.14"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
