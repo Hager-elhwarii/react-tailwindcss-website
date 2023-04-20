@@ -48,7 +48,13 @@ export default function Home() {
             />
           </svg>
 
-          <a className="text-4xl font-bold ">Klar</a>
+          <a
+            className={` font-bold transtion duration-200 ${
+              scrolled ? "text-2xl" : "text-3xl"
+            }`}
+          >
+            Klar
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-10 px-1 text-xl">
@@ -100,8 +106,8 @@ export default function Home() {
       <WhatWeDont />
       <DoYouLike />
       <WhatWeCharge />
-      <Number/>
-      <WhatOthersHave/>
+      <Number />
+      <WhatOthersHave />
       <Footer />
     </>
   );
