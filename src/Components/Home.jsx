@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+
 
 import DoYouLike from "./DoYouLike";
 import Footer from "./Footer";
@@ -77,7 +79,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="container w-full md:w-[700px] text-center mx-auto flex flex-col translate-y-44 gap-3 mb-72 ">
+      <motion.div animate={{y:200, scale:1}} initial={{scale:0}} transition={{type:"tween", duration :0.7}} className="container w-full md:w-[700px] text-center mx-auto px-auto flex flex-col translate-y-44 gap-3 mb-72 ">
         <p className="text-xl md:text-2xl text-gray-400 capitalize font-thin">
           our mission
         </p>
@@ -100,7 +102,7 @@ export default function Home() {
             </div>
           </button>
         </p>
-      </div>
+      </motion.div>
       <ImagesSection />
       <WhatWeDo />
       <WhatWeDont />

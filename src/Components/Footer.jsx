@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
       <>
-       <footer aria-label="Site Footer" className="bg-dark">
+       <footer aria-label="Site Footer" className="bg-dark translate-y-[500px] lg:translate-y-0">
   <div
     className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8"
   >
@@ -9,13 +9,8 @@ export default function Footer() {
       <div>
       <div >
 
-          <a className="text-4xl font-bold ">Klar</a>
+          <a className="text-4xl font-bold text-white">Klar</a>
         </div>
-
-        <p className="max-w-xs mt-4 text-gray-500">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
-          cupiditate quae nam molestias.
-        </p>
 
         <ul className="flex gap-6 mt-8">
           <li>
@@ -139,12 +134,12 @@ export default function Footer() {
       </div>
 
       <div
-        className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 b  2xl:translate-x-32 2xl:mx-auto "
+        className="w-full grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 b  2xl:translate-x-32 2xl:mx-auto "
       >
      
 
-        <div className="ml-8">
-          <p className="font-bold text-gray-400 text-lg">Company</p>
+        <div className="md:ml-8">
+          <p className="font-bold text-white text-lg">Company</p>
 
           <nav aria-label="Footer Navigation - Company" className="mt-6">
             <ul className="space-y-4 text-sm">
@@ -169,8 +164,8 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="lg:ml-8 ">
-          <p className="font-medium  text-gray-400 text-lg ">Services</p>
+        <div className="md:ml-8 ">
+          <p className="font-medium  text-white text-lg ">Services</p>
 
           <nav aria-label="Footer Navigation - Company" className="mt-6">
             <ul className="space-y-4 text-sm">
@@ -195,8 +190,8 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div>
-          <p className="font-medium  text-gray-400 text-lg">Support</p>
+        <div className="md:ml-8">
+          <p className="font-medium  text-white text-lg">Support</p>
 
           <nav aria-label="Footer Navigation - Legal" className="mt-6">
             <ul className="space-y-4 text-sm">
