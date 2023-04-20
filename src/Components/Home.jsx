@@ -8,6 +8,7 @@ import WhatWeCharge from "./WhatWeCharge";
 import WhatWeDo from "./WhatWeDo";
 import WhatWeDont from "./WhatWeDont";
 import Number from "./Number";
+import WhatOthersHave from "./WhatOthersHave";
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
@@ -100,6 +101,7 @@ export default function Home() {
       <DoYouLike />
       <WhatWeCharge />
       <Number/>
+      <WhatOthersHave/>
       <Footer />
     </>
   );
