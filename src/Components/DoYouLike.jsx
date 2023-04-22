@@ -5,8 +5,8 @@ export default function DoYouLike() {
       <section className="bg-transparent lg:bg-zinc-900 w-full lg:mt-0 px-8 md:px-0 pt-12">
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 xl:py-5 ">
           <motion.div
-             initial={0}
-             whileInView={{ y:0, x:[-100,0], opacity: [0.1, 1] }}
+             initial={{x:-100, opacity: 0.1} }
+             whileInView={{ x:0, opacity: 1 }}
              transition={{ type: "tween", duration: 1}}
            className="md:ml-52">
             <img

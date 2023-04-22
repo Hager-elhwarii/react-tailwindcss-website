@@ -6,10 +6,9 @@ export default function WhatWeDont() {
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 pr-8 ">
           <div className="lg:translate-x-30 xl:translate-x-44  2xl:translate-x-[17.2rem]">
             <motion.div
-              // initial={{ y: 0, opacity: 0 }}
-              whileInView={{ y: [200, 0], opacity: [0.1, 1] }}
-              viewport={{ once: true }}
-              transition={{ type: "spring", duration: 1 }}
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.4 }}
               className="card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl rounded-3xl mb-16"
             >
               <figure>
@@ -36,10 +35,9 @@ export default function WhatWeDont() {
               </div>
             </motion.div>
             <motion.div
-              initial={{ y: 0, opacity: 0 }}
-              whileInView={{ y: [200, 0], opacity: [0.1, 1] }}
-              viewport={{ once: true }}
-              transition={{ type: "spring", duration: 2 }}
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.4 }}
               className="card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl  rounded-3xl"
             >
               <figure>
@@ -72,10 +70,9 @@ export default function WhatWeDont() {
               There is a lot we don´t know. Here is a small sneak peek
             </p>
             <motion.div
-              initial={0}
-              whileInView={{ y: [200, 0], opacity: [0.1, 1] }}
-              viewport={{ once: true }}
-              transition={{ type: "spring", duration: 1 }}
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.4 }}
               className="card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl mt-14 2xl:mt-32  rounded-3xl lg:mb-5"
             >
               <figure>
@@ -102,10 +99,9 @@ export default function WhatWeDont() {
               </div>
             </motion.div>
             <motion.div
-              initial={0}
-              whileInView={{ y: [200, 0], opacity: [0.1, 1] }}
-              viewport={{ once: true }}
-              transition={{ type: "spring", duration: 1 }}
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.4 }}
               className="card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl mt-16 rounded-3xl"
             >
               <figure>
