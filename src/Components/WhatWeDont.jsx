@@ -101,7 +101,7 @@ export default function WhatWeDont() {
             <motion.div
               initial={{ y: 200, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ type: "tween", duration: 0.4 }}
+              transition={{ type: "tween", duration: 0.2 }}
               className="card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl mt-16 rounded-3xl"
             >
               <figure>

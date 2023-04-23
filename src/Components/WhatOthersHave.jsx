@@ -9,10 +9,11 @@ export default function WhatOthersHave() {
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 pr-8 ">
           <div className="lg:translate-x-30 xl:translate-x-44  2xl:translate-x-[18.5rem]">
             <motion.div
-               initial={{ y: 200, opacity: 0 }}
-               whileInView={{ y: 0, opacity: 1 }}
-               transition={{ type: "tween", duration: 0.5 }}
-             className="card card-compact w-full lg:w-[470px] bg-black border border-gray-400 lg:border-none rounded-3xl mb-16">
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.5 }}
+              className="card card-compact w-full lg:w-[470px] bg-black border border-gray-400 lg:border-none rounded-3xl mb-16"
+            >
               <div className="px-10 py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
                   <Rating />
@@ -39,10 +40,11 @@ export default function WhatOthersHave() {
               </div>
             </motion.div>
             <motion.div
-                 initial={{ y: 200, opacity: 0 }}
-                 whileInView={{ y: 0, opacity: 1 }}
-                 transition={{ type: "tween", duration: 0.5 }}
-             className="card card-compact w-full lg:w-[470px] bg-black border border-gray-400 lg:border-none  shadow-xl  rounded-3xl">
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.5 }}
+              className="card card-compact w-full lg:w-[470px] bg-black border border-gray-400 lg:border-none  shadow-xl  rounded-3xl"
+            >
               <div className="px-10 py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
                   <RatingTwo />
@@ -59,7 +61,7 @@ export default function WhatOthersHave() {
                       <img src="https://www.bloovi.be/frontend/files/blog/images/source/lieven-scheire-de-bestrijding-van-de-pandemie-is-momenteel-belangrijker-dan-onze-privacy.jpg" />
                     </div>
                   </div>
-                  <div >
+                  <div>
                     <p className="md:text-xl text-white capitalize font-medium">
                       Jane Doemunsky
                     </p>
@@ -75,11 +77,11 @@ export default function WhatOthersHave() {
               Invidunt ut labore et dolore magna aliquyam erat.
             </p>
             <motion.div
-                 initial={{ y: 200, opacity: 0 }}
-                 whileInView={{ y: 0, opacity: 1 }}
-                 transition={{ type: "tween", duration: 0.5 }}
-             className="card card-compact w-full lg:w-[470px] bg-gradient-to-br from-orange-500 via-red-500 to-pink-500 shadow-xl mt-14 2xl:mt-32  rounded-3xl lg:mb-5 ">
-            
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ type: "tween", duration: 0.5 }}
+              className="card card-compact w-full lg:w-[470px] bg-gradient-to-br from-orange-500 via-red-500 to-pink-500 shadow-xl mt-14 2xl:mt-32  rounded-3xl lg:mb-5 "
+            >
               <div className="px-10 py-12 ">
                 <h2 className="text-2xl md:text-4xl text-white">
                   <Rating />
@@ -100,7 +102,10 @@ export default function WhatOthersHave() {
                     <p className="md:text-xl text-white capitalize font-medium">
                       Jane Doemunsky
                     </p>
-                    <p className="md:text-lg font-thin text-white"> CEO, The Boo Corp.</p>
+                    <p className="md:text-lg font-thin text-white">
+                      {" "}
+                      CEO, The Boo Corp.
+                    </p>
                   </div>
                 </div>
               </div>

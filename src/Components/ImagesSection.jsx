@@ -16,9 +16,9 @@ export default function ImagesSection() {
           />
         </motion.div>
         <motion.div
-         initial={{ y: 200, opacity: 0 }}
-         whileInView={{ y: 0, opacity: 1 }}
-         transition={{ type: "tween", duration: 2 }}
+          initial={{ y: 200, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ type: "tween", duration: 2 }}
         >
           <img
             className="md:h-[400px] w-full md:w-[300px] rounded-3xl md:translate-x-1 translate-y-10"
@@ -27,9 +27,9 @@ export default function ImagesSection() {
           />
         </motion.div>
         <motion.div
-        initial={{ y: 200, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ type: "tween", duration: 1 }}
+          initial={{ y: 200, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ type: "tween", duration: 1 }}
           className="flex md:items-center"
         >
           <img

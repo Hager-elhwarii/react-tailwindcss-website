@@ -1,7 +1,6 @@
 import { useState } from "react";
-import CountUp from 'react-countup';
-import ScrollTrigger from 'react-scroll-trigger';
-
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 export default function Number() {
   const [counterOn, setCounterOn] = useState(false);
@@ -20,10 +19,8 @@ export default function Number() {
           <div className="absolute bg-transparent 2xl:bg-black rounded-3xl ">
             <section className=" lg:mt-0 px-8 md:px-0 pt-12 rounded-3xl">
               <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 xl:py-5 ">
-                <div
-                >
-                  <div
-                   className="md:translate-x-40 translate-y-[350px] lg:translate-y-0 card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl rounded-3xl mb-16 2xl:translate-x-20">
+                <div>
+                  <div className="md:translate-x-40 translate-y-[350px] lg:translate-y-0 card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl rounded-3xl mb-16 2xl:translate-x-20">
                     <figure>
                       <img
                         className="w-full  scale-100 hover:scale-110 cursor-pointer transition ease-in-out duration-700"
@@ -49,21 +46,29 @@ export default function Number() {
                 <div className=" pl-20 xl:w-[540px] translate-y-24 h-[560px] hidden  lg:flex flex-col">
                   <h2 className="text-2xl font-thin mb-2">The numbers</h2>
                   <p className="text-5xl font-bold text-white pb-3">
-                  + {counterOn && <CountUp start={0} end={400} duration={2} delay={0} />}
+                    +{" "}
+                    {counterOn && (
+                      <CountUp start={0} end={400} duration={2} delay={0} />
+                    )}
                   </p>
                   <p className="md:text-3xl font-thin ">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                   </p>
                   <hr className="w-full lg:w-[350px] my-10 " />
                   <p className="md:text-5xl font-bold text-white pb-3">
-                  {counterOn && <CountUp start={0} end={78981} duration={2} delay={0} />}
+                    {counterOn && (
+                      <CountUp start={0} end={78981} duration={2} delay={0} />
+                    )}
                   </p>
                   <p className="md:text-3xl font-thin">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                   </p>
                   <hr className="w-full lg:w-[350px] my-10 " />
                   <p className="md:text-5xl font-bold text-white pb-3">
-                  {counterOn && <CountUp start={0} end={98} duration={2} delay={0} />}%
+                    {counterOn && (
+                      <CountUp start={0} end={98} duration={2} delay={0} />
+                    )}
+                    %
                   </p>
                   <p className="md:text-3xl font-thin ">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
