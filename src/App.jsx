@@ -10,7 +10,6 @@ import Number from "./Components/Number";
 import WhatOthersHave from "./Components/WhatOthersHave";
 import Footer from "./Components/Footer";
 
-
 function App() {
   return (
     <>
