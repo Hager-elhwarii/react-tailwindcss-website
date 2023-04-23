@@ -5,7 +5,7 @@ export default function RightArrow() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-6 h-6 mt-2 ml-2"
+        className="w-4 h-4 md:w-6 md:h-6 mt-2 ml-2"
       >
         <path
           fillRule="evenodd"

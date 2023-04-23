@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function WhatOthersHave() {
   return (
     <>
-      <section className="mt-16 flex justify-center pb-20 pl-10 xl:pl-0 pt-20  bg-transparent lg:bg-zinc-900 translate-y-[600px] lg:translate-y-0">
+      <section className="mt-16 flex justify-center pb-20 pl-10 xl:pl-0 pt-20  bg-transparent lg:bg-zinc-900 translate-y-[1000px] lg:translate-y-0">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 pr-8 ">
           <div className="lg:translate-x-30 xl:translate-x-44  2xl:translate-x-[18.5rem]">
             <motion.div

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 export default function DoYouLike() {
   return (
     <>
-      <section className="bg-transparent lg:bg-zinc-900 w-full lg:mt-0 px-8 md:px-0 pt-12">
+      <section className="bg-zinc-900 w-full lg:mt-0 px-8 md:px-0 pt-12">
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 xl:py-5 ">
           <motion.div
             initial={{ x: -100, opacity: 0.1 }}
