@@ -16,24 +16,20 @@ export default function DownloadBtn({ fileUrl }) {
   }
   const handleDownloadClick = async () => {
     const htmlCode = document.documentElement.outerHTML;
-    // Fetch the Tailwind CSS file
-    console.log("in");
-    const tailwindUrl = "https://cdn.tailwindcss.com/dist/tailwind.min.css";
-
-    const response = await fetch(tailwindUrl);
-    console.log({ response });
-    const cssCode = await response.text();
-    console.log({ cssCode });
-    // Create a combined HTML/CSS file
-    const combinedCode = `<html><head><style>${cssCode}</style></head><body>${htmlCode}</body></html>`;
-    console.log({ combinedCode});
-    const blob = new Blob([combinedCode], { type: "text/html" });
+    const blob = new Blob([htmlCode], { type: "text/html" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
     a.download = "Klar-react-template.html";
     a.click();
     URL.revokeObjectURL(url);
+
+    const head = document.getElementsByTagName("head")[0];
+    const tailwindLink = document.createElement("link");
+    tailwindLink.rel = "stylesheet";
+    tailwindLink.href =
+      "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css";
+    head.appendChild(tailwindLink);
   };
   return (
     <>
