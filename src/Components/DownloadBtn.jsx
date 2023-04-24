@@ -7,7 +7,6 @@ export default function DownloadBtn({ fileUrl }) {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
-
   function handleScroll() {
     if (window.pageYOffset > 0) {
       setScrolled(true);
@@ -15,10 +14,16 @@ export default function DownloadBtn({ fileUrl }) {
       setScrolled(false);
     }
   }
-  const handleDownloadClick = () => {
+  const handleDownloadClick = async () => {
     const htmlCode = document.documentElement.outerHTML;
-    console.log({ htmlCode });
-    const blob = new Blob([htmlCode], { type: "text/html" });
+    // Fetch the Tailwind CSS file
+    const tailwindUrl = "https://cdn.tailwindcss.com/dist/tailwind.min.css";
+    const response = await fetch(tailwindUrl);
+    const cssCode = await response.text();
+
+    // Create a combined HTML/CSS file
+    const combinedCode = `<html><head><style>${cssCode}</style></head><body>${htmlCode}</body></html>`;
+    const blob = new Blob([combinedCode], { type: "text/html" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
