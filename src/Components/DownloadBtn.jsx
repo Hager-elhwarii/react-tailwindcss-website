@@ -19,12 +19,14 @@ export default function DownloadBtn({ fileUrl }) {
     // Fetch the Tailwind CSS file
     console.log("in");
     const tailwindUrl = "https://cdn.tailwindcss.com/dist/tailwind.min.css";
-    const response = await fetch(tailwindUrl);
-    const cssCode = await response.text();
 
+    const response = await fetch(tailwindUrl);
+    console.log({ response });
+    const cssCode = await response.text();
+    console.log({ cssCode });
     // Create a combined HTML/CSS file
     const combinedCode = `<html><head><style>${cssCode}</style></head><body>${htmlCode}</body></html>`;
-    console.log({ combinedCode, cssCode });
+    console.log({ combinedCode});
     const blob = new Blob([combinedCode], { type: "text/html" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
