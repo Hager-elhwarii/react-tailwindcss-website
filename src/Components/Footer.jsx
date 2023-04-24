@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <footer
         aria-label="Site Footer"
-        className="ml-8 md:ml-0 bg-dark translate-y-[900px] lg:translate-y-0"
+        className="ml-8 md:ml-0 bg-dark translate-y-[860px] lg:translate-y-0"
       >
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
@@ -15,7 +15,7 @@ export default function Footer() {
               <ul className="flex gap-6 mt-8">
                 <li>
                   <a
-                    href="/"
+                    href="https://www.facebook.com/reel/168440566065710/?s=ifu"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -39,7 +39,7 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/gigiielhwarii/"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -63,27 +63,7 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="/"
-                    rel="noreferrer"
-                    target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    <span className="sr-only">Twitter</span>
-
-                    <svg
-                      className="w-6 h-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="/"
+                    href="https://github.com/Hager-elhwarii"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -107,24 +87,32 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/hager-omar-elhawary/"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
                   >
-                    <span className="sr-only">Dribbble</span>
+                    <span className="sr-only">Linked in</span>
 
                     <svg
-                      className="w-6 h-6"
-                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-brand-linkedin"
+                      width="24"
+                      height="24"
                       viewBox="0 0 24 24"
-                      aria-hidden="true"
+                      strokeWidth="2"
+                      stroke="currentColor"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        fillRule="evenodd"
-                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                        clipRule="evenodd"
-                      />
+                      {" "}
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />{" "}
+                      <rect x="4" y="4" width="16" height="16" rx="2" />{" "}
+                      <line x1="8" y1="11" x2="8" y2="16" />{" "}
+                      <line x1="8" y1="8" x2="8" y2="8.01" />{" "}
+                      <line x1="12" y1="16" x2="12" y2="11" />{" "}
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" />{" "}
                     </svg>
                   </a>
                 </li>
@@ -133,34 +121,41 @@ export default function Footer() {
 
             <div className="w-full grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 b  2xl:translate-x-32 2xl:mx-auto ">
               <div className="md:ml-8">
-                <p className="font-bold text-white text-lg">Company</p>
+                <p className="font-normal  text-white text-xl">Company</p>
 
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
                   <ul className="space-y-4 text-sm">
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
-                        About
+                        About Us
                       </a>
                     </li>
-
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
-                        Meet the Team
+                        Portfolio
                       </a>
                     </li>
-
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
                         Accounts Review
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="#"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
+                      >
+                        Meet the Team
                       </a>
                     </li>
                   </ul>
@@ -168,34 +163,41 @@ export default function Footer() {
               </div>
 
               <div className="md:ml-8 ">
-                <p className="font-medium  text-white text-lg ">Services</p>
+                <p className="font-normal text-white text-xl">Services</p>
 
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
                   <ul className="space-y-4 text-sm">
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
-                        Contact
+                        Pricing
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
+                      >
+                        Products
                       </a>
                     </li>
 
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
-                      >
-                        FAQs
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
                         Live Chat
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
+                      >
+                        More
                       </a>
                     </li>
                   </ul>
@@ -203,14 +205,14 @@ export default function Footer() {
               </div>
 
               <div className="md:ml-8">
-                <p className="font-medium  text-white text-lg">Support</p>
+                <p className="font-normal  text-white text-xl">Support</p>
 
                 <nav aria-label="Footer Navigation - Legal" className="mt-6">
                   <ul className="space-y-4 text-sm">
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
                         Accessibility
                       </a>
@@ -219,9 +221,17 @@ export default function Footer() {
                     <li>
                       <a
                         href="#"
-                        className="text-gray-700 transition hover:opacity-75"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
                       >
                         Returns Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="text-gray-500 transition hover:opacity-75 text-[16px]"
+                      >
+                        FAQs
                       </a>
                     </li>
                   </ul>
@@ -231,7 +241,7 @@ export default function Footer() {
           </div>
 
           <p className="text-xs text-gray-500">
-            &copy; 2022. Company Name. All rights reserved.
+            &copy; 2023. Hager Elhwarii. All rights reserved.
           </p>
         </div>
       </footer>

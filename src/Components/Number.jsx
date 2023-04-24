@@ -29,7 +29,7 @@ export default function Number() {
                       />
                     </figure>
                     <div className="lg:px-10  mx-auto  2xl-h-full">
-                      <p className=" text-lg md:text-2xl py-6 leading-9 px-0 2xl-px-16 text-center text-white font-normal">
+                      <p className="text-[16px] md:text-2xl py-6 md:leading-9 px-4 2xl-px-16 text-center text-white font-normal">
                         "Lorem ipsum dolor sit amet, consetetur sadipscing
                         elitr, sed diam nonumy eirmod tempor invidunt ut labore
                         et dolore magna aliquyam erat, sed diam voluptua. At
@@ -37,7 +37,7 @@ export default function Number() {
                         Stet clita kasd gubergren, no sea takimata sanctus est
                         Lorem ipsum dolor sit amet."
                       </p>
-                      <hr className="w-[310px] mx-auto " />
+                      <hr className="w-[200px] md:w-[310px] mx-auto " />
                       <span className="font-thin py-5 flex justify-center">
                         Jane Doe, CEO
                       </span>

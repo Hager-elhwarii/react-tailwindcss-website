@@ -20,9 +20,9 @@ export default function WhatWeDont() {
               </figure>
               <div className="px-10 py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
-                  Ipsum dolor est test
+                  Ipsum dolor est
                 </h2>
-                <p className=" text-xl py-5 ">
+                <p className="md:text-xl py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
@@ -49,9 +49,9 @@ export default function WhatWeDont() {
               </figure>
               <div className="px-10 py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
-                  Ipsum dolor est test2
+                  Ipsum dolor est
                 </h2>
-                <p className=" text-xl py-5 ">
+                <p className="md:text-xl py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
@@ -86,7 +86,7 @@ export default function WhatWeDont() {
                 <h2 className="text-2xl md:text-4xl text-white">
                   Ipsum dolor est
                 </h2>
-                <p className=" text-xl py-5 ">
+                <p className="md:text-xl py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
@@ -115,7 +115,7 @@ export default function WhatWeDont() {
                 <h2 className="text-2xl md:text-4xl text-white">
                   Ipsum dolor est
                 </h2>
-                <p className=" text-xl py-5 ">
+                <p className="md:text-xl py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.

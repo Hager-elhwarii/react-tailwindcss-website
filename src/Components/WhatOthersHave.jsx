@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function WhatOthersHave() {
   return (
     <>
-      <section className="mt-16 flex justify-center pb-20 pl-10 xl:pl-0 pt-20  bg-transparent lg:bg-zinc-900 translate-y-[1000px] lg:translate-y-0">
+      <section className="mt-16 flex justify-center pb-20 pl-10 xl:pl-0 pt-20  bg-transparent lg:bg-zinc-900 translate-y-[950px] lg:translate-y-0">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 pr-8 ">
           <div className="lg:translate-x-30 xl:translate-x-44  2xl:translate-x-[18.5rem]">
             <motion.div
@@ -18,7 +18,7 @@ export default function WhatOthersHave() {
                 <h2 className="text-2xl md:text-4xl text-white">
                   <Rating />
                 </h2>
-                <p className="text-xl md:text-[29px] py-5 font-thin leading-10 ">
+                <p className="text-xl md:text-[29px] py-5 font-thin md:leading-10 ">
                   "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut
                   labore et dolore magna aliqua ullamco laboris nisi ut aliquip
                   ex ea commodo consequat."
@@ -49,7 +49,7 @@ export default function WhatOthersHave() {
                 <h2 className="text-2xl md:text-4xl text-white">
                   <RatingTwo />
                 </h2>
-                <p className="text-xl md:text-[29px] py-5 font-thin leading-10 ">
+                <p className="text-xl md:text-[29px] py-5 font-thin md:leading-10 ">
                   "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut
                   labore et dolore magna aliqua ullamco laboris nisi ut aliquip
                   ex ea commodo consequat."
@@ -71,7 +71,7 @@ export default function WhatOthersHave() {
               </div>
             </motion.div>
           </div>
-          <div className=" lg:w-96 t md:translate-y-12 xl:translate-x-16 ">
+          <div className=" lg:w-[372px] t md:translate-y-12 xl:translate-x-16 ">
             <h2 className="xl:text-2xl font-thin">What others have to say</h2>
             <p className="md:text-3xl xl:text-6xl text-white">
               Invidunt ut labore et dolore magna aliquyam erat.
@@ -86,7 +86,7 @@ export default function WhatOthersHave() {
                 <h2 className="text-2xl md:text-4xl text-white">
                   <Rating />
                 </h2>
-                <p className="text-xl md:text-[29px] py-5 font-thin text-white leading-10 ">
+                <p className="text-xl md:text-[29px] py-5 font-thin text-white md:leading-10 ">
                   "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut
                   labore et dolore magna aliqua ullamco laboris nisi ut aliquip
                   ex ea commodo consequat."

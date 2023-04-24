@@ -15,7 +15,7 @@ export default function OurMission() {
         <p className="font-bold text-2xl md:text-6xl text-white">
           We do ordinary stuff for cool people
         </p>
-        <p className="text-[19px]  md:text-[32px] text-gray-400 font-thin">
+        <p className="text-[19px]  md:text-[32px] text-gray-400 font-thin px-4 md:px-0">
           We are some sort of DAO working with AI, NFT´s, web 4.0 and the so
           called blockchain...in the Metaverse. You don´t understand a word? No
           problem, we neither!

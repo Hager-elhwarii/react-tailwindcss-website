@@ -21,7 +21,7 @@ export default function WhatWeCharge() {
             initial={{ x: 40, opacity: 0.1 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ type: "tween", duration: 1 }}
-            className="md:w-[490px] xl:w-[630px] bg-zinc-900 rounded-3xl text-center py-12 px-[45px] min-[768px]:max-[990px]:ml-52"
+            className=" md:w-[490px] xl:w-[630px] bg-zinc-900 rounded-3xl text-center py-12 px-[45px] min-[768px]:max-[990px]:ml-52"
           >
             <h2 className="text-2xl text-white pb-4 md:pb-14">
               $
@@ -30,7 +30,7 @@ export default function WhatWeCharge() {
               </span>
               /day
             </h2>
-            <p className="text-xl md:text-[1.8rem] font-thin leading-10 mb-6 text-gray-350">
+            <p className="text-lg md:text-[1.8rem] font-thin leading-6 md:leading-10 mb-6 text-gray-350">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
