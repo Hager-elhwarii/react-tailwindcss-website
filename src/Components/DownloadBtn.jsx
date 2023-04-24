@@ -18,6 +18,7 @@ export default function DownloadBtn({ fileUrl }) {
   const handleDownloadClick = async () => {
     const response = await fetch(window.location.href);
     const htmlCode = await response.text();
+    console.log({ htmlCode, response });
     const a = document.createElement("a");
     const blob = new Blob([htmlCode], { type: "text/html" });
     const url = URL.createObjectURL(blob);
