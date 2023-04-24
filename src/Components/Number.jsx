@@ -11,16 +11,16 @@ export default function Number() {
         onExit={() => setCounterOn(false)}
       >
         <div
-          className="w-full hero md:h-[1025px] relative  2xl:w-[1280px] mx-auto  rounded-3xl mb-20"
+          className="hero md:h-[1090px] relative xl:w-[1280px] mx-auto  rounded-3xl mb-20"
           style={{
             backgroundImage: `url("https://10wallpaper.com/wallpaper/2560x1600/1610/Ocean_underwater_blu_rays-HD_Retina_Wallpaper_2560x1600.jpg")`,
           }}
         >
-          <div className="absolute bg-transparent md:bg-black rounded-3xl  min-[1020px]:max-[1280px]:w-[400px]">
+          <div className="absolute bg-transparent md:bg-black rounded-3xl">
             <section className="lg:mt-0 px-8 md:px-0 pt-12 rounded-3xl">
-              <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 xl:py-5 x translate-y-60 md:translate-y-0 ">
-                <div className="translate-y-64 lg:translate-y-0 ">
-                  <div className=" md:translate-x-40 card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl rounded-3xl mb-16 2xl:translate-x-20">
+              <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 lg:gap-10 xl:py-5 x translate-y-60 md:translate-y-0 ">
+                <div className="md:-translate-x-24 xl:translate-x-0 translate-y-64 md:translate-y-0 ">
+                  <div className="md:translate-x-40 card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl rounded-3xl mb-16 2xl:translate-x-20">
                     <figure>
                       <img
                         className="w-full  scale-100 hover:scale-110 cursor-pointer transition ease-in-out duration-700"

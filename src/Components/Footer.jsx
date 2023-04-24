@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <footer
         aria-label="Site Footer"
-        className="ml-8 md:ml-0 bg-dark translate-y-[860px] lg:translate-y-0"
+        className="ml-8 md:ml-0 bg-dark translate-y-[880px] lg:translate-y-0"
       >
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
@@ -96,7 +96,7 @@ export default function Footer() {
 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-brand-linkedin"
+                      className="icon icon-tabler icon-tabler-brand-linkedin"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"

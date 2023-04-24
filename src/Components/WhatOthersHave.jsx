@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function WhatOthersHave() {
   return (
     <>
-      <section className="mt-16 flex justify-center pb-20 pl-10 xl:pl-0 pt-20  bg-transparent lg:bg-zinc-900 translate-y-[950px] lg:translate-y-0">
+      <section className="mt-16 flex justify-center pb-20 pl-10 xl:pl-0 pt-20  bg-transparent lg:bg-zinc-900 translate-y-[990px] md:translate-y-0">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 pr-8 ">
           <div className="lg:translate-x-30 xl:translate-x-44  2xl:translate-x-[18.5rem]">
             <motion.div
@@ -31,10 +31,10 @@ export default function WhatOthersHave() {
                     </div>
                   </div>
                   <div>
-                    <p className="md:text-xl text-white capitalize font-medium">
+                    <p className="text-sm md:text-xl text-white capitalize font-medium">
                       Jane Doemunsky
                     </p>
-                    <p className="md:text-lg font-thin"> CEO, The Boo Corp.</p>
+                    <p className="text-xs md:text-lg font-thin"> CEO, The Boo Corp.</p>
                   </div>
                 </div>
               </div>
@@ -62,10 +62,10 @@ export default function WhatOthersHave() {
                     </div>
                   </div>
                   <div>
-                    <p className="md:text-xl text-white capitalize font-medium">
+                    <p className="text-sm md:text-xl text-white capitalize font-medium">
                       Jane Doemunsky
                     </p>
-                    <p className="md:text-lg font-thin"> COO, The Boo Corp.</p>
+                    <p className="text-xs md:text-lg font-thin"> CEO, The Boo Corp.</p>
                   </div>
                 </div>
               </div>
@@ -99,10 +99,10 @@ export default function WhatOthersHave() {
                     </div>
                   </div>
                   <div>
-                    <p className="md:text-xl text-white capitalize font-medium">
+                    <p className="text-sm md:text-xl text-white capitalize font-medium">
                       Jane Doemunsky
                     </p>
-                    <p className="md:text-lg font-thin text-white">
+                    <p className="text-xs md:text-lg font-thin text-white">
                       {" "}
                       CEO, The Boo Corp.
                     </p>

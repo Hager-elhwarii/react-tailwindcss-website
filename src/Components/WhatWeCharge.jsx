@@ -36,7 +36,7 @@ export default function WhatWeCharge() {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <button className="bg-white px-4 md:px-[60px] md:py-4 text-sm md:text-xl rounded-full text-gray-800 ">
+            <button className="border border-outline bg-white hover:bg-black hover:text-white hover:border px-4 md:px-[60px] md:py-4 text-sm md:text-xl rounded-full text-gray-900 transtion ease-in-out duration-500 ">
               <div className="flex items-center">
                 <div>Sign up</div>
                 <div>
