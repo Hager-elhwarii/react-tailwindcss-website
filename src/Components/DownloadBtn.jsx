@@ -15,13 +15,17 @@ export default function DownloadBtn({ fileUrl }) {
       setScrolled(false);
     }
   }
-  const handleDownloadClick = () => {
-    const htmlCode = document.documentElement.outerHTML;
+  const handleDownloadClick = async () => {
+    const response = await fetch(window.location.href);
+    const html = await response.text();
+    const element = document.createElement("a");
     const blob = new Blob([htmlCode], { type: "text/html" });
     const url = URL.createObjectURL(blob);
+
     const a = document.createElement("a");
     a.href = url;
     a.download = "Klar-react-template.html";
+    document.body.appendChild(a);
     a.click();
     URL.revokeObjectURL(url);
   };
