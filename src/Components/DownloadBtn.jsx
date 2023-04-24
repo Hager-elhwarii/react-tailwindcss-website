@@ -17,12 +17,10 @@ export default function DownloadBtn({ fileUrl }) {
   }
   const handleDownloadClick = async () => {
     const response = await fetch(window.location.href);
-    const html = await response.text();
-    const element = document.createElement("a");
+    const htmlCode = await response.text();
+    const a = document.createElement("a");
     const blob = new Blob([htmlCode], { type: "text/html" });
     const url = URL.createObjectURL(blob);
-
-    const a = document.createElement("a");
     a.href = url;
     a.download = "Klar-react-template.html";
     document.body.appendChild(a);
