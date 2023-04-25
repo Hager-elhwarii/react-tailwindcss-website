@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 export default function NavBar() {
-  const fileUrl = "https://react-tailwindcss-website-gray.vercel.app/";
 
   const [scrolled, setScrolled] = useState(false);
 
@@ -67,8 +66,6 @@ export default function NavBar() {
         </div>
         <div className="navbar-end md:mr-32  hidden lg:flex">
           <a
-            download
-            href={tailwind-project}
             className={`border border-outline hover:bg-white hover:text-black  px-4 rounded-full cursor-pointer transtion ease-in-out duration-500 ${
               scrolled ? "py-1" : "py-2"
             }`}
