@@ -18,19 +18,19 @@ export default function WhatWeDont() {
                   alt="Shoes"
                 />
               </figure>
-              <div className="px-10 py-12">
+              <div className="px-10 py-6 md:py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
                   Ipsum dolor est
                 </h2>
-                <p className="md:text-xl py-5 ">
+                <p className="md:text-xl py-3 md:py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
                 </p>
                 <div className="card-actions justify-start">
-                  <button className="font-bold text-white underline underline-offset-8 text-xl pt-6">
+                  <a className=" hover:text-gray-400 cursor-pointer transition-all  duration-700 font-normal text-white underline underline-offset-8 md:text-xl md:pt-6">
                     Read more
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>
@@ -47,19 +47,19 @@ export default function WhatWeDont() {
                   alt="Shoes"
                 />
               </figure>
-              <div className="px-10 py-12">
+              <div className="px-10 py-6 md:py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
                   Ipsum dolor est
                 </h2>
-                <p className="md:text-xl py-5 ">
+                <p className="md:text-xl py-3 md:py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
                 </p>
                 <div className="card-actions justify-start">
-                  <button className="font-bold text-white underline underline-offset-8 text-xl pt-6">
+                  <a className=" hover:text-gray-400 cursor-pointer transition-all  duration-700 font-normal text-white underline underline-offset-8 md:text-xl md:pt-6">
                     Read more
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>
@@ -73,7 +73,7 @@ export default function WhatWeDont() {
               initial={{ y: 200, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ type: "tween", duration: 0.4 }}
-              className="card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl mt-14 2xl:mt-32  rounded-3xl lg:mb-5"
+              className=" card card-compact w-full lg:w-[470px] bg-zinc-900 shadow-xl mt-14 2xl:mt-32  rounded-3xl lg:mb-5"
             >
               <figure>
                 <img
@@ -82,19 +82,19 @@ export default function WhatWeDont() {
                   alt="Shoes"
                 />
               </figure>
-              <div className="px-10 py-12">
+              <div className="px-10 py-6 md:py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
                   Ipsum dolor est
                 </h2>
-                <p className="md:text-xl py-5 ">
+                <p className="md:text-xl py-3 md:py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
                 </p>
                 <div className="card-actions justify-start">
-                  <button className="font-bold text-white underline underline-offset-8 text-xl pt-6">
+                  <a className=" hover:text-gray-400 cursor-pointer transition-all  duration-700 font-normal text-white underline underline-offset-8 md:text-xl md:pt-6">
                     Read more
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>
@@ -111,19 +111,19 @@ export default function WhatWeDont() {
                   alt="Shoes"
                 />
               </figure>
-              <div className="px-10 py-12">
+              <div className="px-10 py-6 md:py-12">
                 <h2 className="text-2xl md:text-4xl text-white">
                   Ipsum dolor est
                 </h2>
-                <p className="md:text-xl py-5 ">
+                <p className="md:text-xl py-3 md:py-5 ">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   aliquyam erat.
                 </p>
                 <div className="card-actions justify-start">
-                  <button className="font-bold text-white underline underline-offset-8 text-xl pt-6">
+                  <a className=" hover:text-gray-400 cursor-pointer transition-all  duration-700 font-normal text-white underline underline-offset-8 md:text-xl md:pt-6">
                     Read more
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>

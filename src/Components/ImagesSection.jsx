@@ -10,7 +10,7 @@ export default function ImagesSection() {
           transition={{ type: "tween", duration: 2 }}
         >
           <img
-            className="md:h-[480px] w-full md:w-[700px] rounded-3xl"
+            className=" md:h-[480px] w-full md:w-[700px] rounded-3xl"
             src="https://themewagon.github.io/klar/img/webp/abstract18.webp"
             alt=""
           />

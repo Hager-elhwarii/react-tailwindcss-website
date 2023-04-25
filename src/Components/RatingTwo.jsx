@@ -1,7 +1,7 @@
 export default function RatingTwo() {
   return (
     <>
-      <ul className="flex justify-start outline-white">
+      <ul className="flex justify-start ">
         <li>
           <svg
             xmlns="http://www.w3.org/2000/svg"
