@@ -45,7 +45,7 @@ export default function Number() {
                     </div>
                   </div>
                 </div>
-                <div className="mx-auto  -order-1 md:order-none xl:pl-20 xl:w-[540px]  h-[560px] translate-y-[350px] md:translate-y-0">
+                <div className="mx-auto  -order-1 md:order-none xl:pl-20 w-full xl:w-[540px]  h-[560px] translate-y-[390px] md:translate-y-0">
                   <h2 className="text-2xl font-thin mb-2">The numbers</h2>
                   <p className="text-3xl md:text-5xl font-bold text-white pb-3">
                     +{" "}

@@ -11,11 +11,11 @@ export default function DoYouLike() {
             className="md:ml-52"
           >
             <img
-              className="w-full object-cover h-96 rounded-3xl"
+              className="w-full object-cover h-96 rounded-3xl brightness-75 hover:brightness-100 transition-all ease-in duration-500 cursor-pointer"
               src="https://cdna.artstation.com/p/assets/images/images/001/098/450/large/phu-thieu-up2.jpg?1440007327"
             />
             <img
-              className="mt-12 xl:mt-0 w-full object-cover h-96 rounded-3xl md:-z-0 xl:-translate-y-14 xl:translate-x-10 mb-10 lg:mb-0"
+              className="mt-12 xl:mt-0 w-full object-cover h-96 rounded-3xl md:-z-0 xl:-translate-y-14 xl:translate-x-10 mb-10 lg:mb-0 brightness-75 hover:brightness-100 transition-all ease-in duration-500 cursor-pointer"
               src="https://www.wallofcelebrities.com/celebrity/darien-willardson/pictures/original/darien-willardson_2959442.jpg"
             />
           </motion.div>
